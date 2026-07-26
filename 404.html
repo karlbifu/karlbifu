@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Redirection…</title>
+    <script type="text/javascript">
+      // Astuce "spa-github-pages" : GitHub Pages n'a pas de règle de réécriture
+      // d'URL comme Netlify (_redirects). Cette page 404 réécrit l'URL demandée
+      // dans le paramètre "?/" puis redirige vers index.html, qui la restaure
+      // (voir le script correspondant ajouté dans index.html).
+      var pathSegmentsToKeep = 1; // = nombre de segments du nom du dépôt ("/karlbifu")
+
+      var l = window.location;
+      l.replace(
+        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+        l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
+        l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
+        (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+        l.hash
+      );
+    </script>
+  </head>
+  <body>
+  </body>
+</html>

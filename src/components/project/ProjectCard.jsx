@@ -61,14 +61,18 @@ const ProjectCard = ({ project }) => {
           >
             <FaGithub /> Code
           </a>
-          <a
-            href={project.demo}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-2 text-sm text-slate-400 hover:text-blue-400 transition-colors"
-          >
-            <FaExternalLinkAlt /> Live Demo
-          </a>
+          
+          {/* Le bouton Live Demo ne s'affiche que si project.demo existe et n'est pas null */}
+          {project.demo && (
+            <a
+              href={project.demo}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-sm text-slate-400 hover:text-blue-400 transition-colors"
+            >
+              <FaExternalLinkAlt /> Live Demo
+            </a>
+          )}
         </div>
       </div>
     </motion.div>

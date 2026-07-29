@@ -8,6 +8,7 @@ export const projectsData = [
     tech: ["Python", "MCP", "LLM", "Agents IA"],
     image: "https://placehold.co/600x400/0B0F14/3FA9A0?text=Agents+IA+%26+MCP",
     github: "https://github.com/kbbifu",
+    demo: null,
   },
   {
     id: 2,
@@ -18,6 +19,7 @@ export const projectsData = [
     tech: ["Python", "Scikit-learn", "PostgreSQL", "API REST"],
     image: "https://placehold.co/600x400/0B0F14/3FA9A0?text=Mod%C3%A8le+de+Scoring",
     github: "https://github.com/kbbifu",
+    demo: null,
   },
   {
     id: 3,
@@ -28,6 +30,7 @@ export const projectsData = [
     tech: ["Python", "Streamlit", "PyCaret"],
     image: "https://placehold.co/600x400/0B0F14/3FA9A0?text=Application+AutoML",
     github: "https://github.com/kbbifu",
+    demo: null,
   },
   {
     id: 4,
@@ -38,6 +41,7 @@ export const projectsData = [
     tech: ["Python", "Machine Learning"],
     image: "https://placehold.co/600x400/0B0F14/3FA9A0?text=Orientation+IA",
     github: "https://github.com/kbbifu",
+    demo: null,
   },
   {
     id: 5,
@@ -48,6 +52,7 @@ export const projectsData = [
     tech: ["Flutter", "Solidity", "IPFS", "Web3JS", "Ethereum"],
     image: "https://placehold.co/600x400/0B0F14/C98A4B?text=PropSecure",
     github: "https://github.com/kbbifu",
+    demo: null,
   },
   {
     id: 6,
@@ -58,6 +63,7 @@ export const projectsData = [
     tech: ["Solidity", "React", "Web3JS", "IPFS", "Cosmos"],
     image: "https://placehold.co/600x400/0B0F14/C98A4B?text=CdArtket",
     github: "https://github.com/kbbifu",
+    demo: null,
   },
   {
     id: 7,
@@ -68,6 +74,7 @@ export const projectsData = [
     tech: ["PHP (Laravel)", "MySQL"],
     image: "https://placehold.co/600x400/0B0F14/E7E9EC?text=G-stock+Pro",
     github: "https://github.com/kbbifu",
+    demo: null,
   },
   {
     id: 8,
@@ -78,6 +85,7 @@ export const projectsData = [
     tech: ["React Native"],
     image: "https://placehold.co/600x400/0B0F14/E7E9EC?text=goCart",
     github: "https://github.com/kbbifu",
+    demo: null,
   },
   {
     id: 9,
@@ -88,6 +96,7 @@ export const projectsData = [
     tech: ["React Native"],
     image: "https://placehold.co/600x400/0B0F14/E7E9EC?text=Kongomart",
     github: "https://github.com/kbbifu",
+    demo: null,
   },
   {
     id: 10,
@@ -98,5 +107,6 @@ export const projectsData = [
     tech: ["Rust", "Systèmes embarqués"],
     image: "https://placehold.co/600x400/0B0F14/C98A4B?text=Kongo-OS",
     github: "https://github.com/kbbifu",
+    demo: null,
   },
 ];

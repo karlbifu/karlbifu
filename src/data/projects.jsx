@@ -62,19 +62,19 @@ export const projectsData = [
       "Plateforme de vente et d'achat d'art congolais sous forme de NFTs, permettant aux artistes locaux de valoriser et protéger leurs œuvres grâce à la blockchain.",
     tech: ["Solidity", "React", "Web3JS", "IPFS", "Cosmos"],
     image: "https://placehold.co/600x400/0B0F14/C98A4B?text=CdArtket",
-    github: "https://github.com/kbbifu",
+    github: "https://github.com/kbbifu/",
     demo: null,
   },
   {
     id: 7,
     title: "G-stock Pro",
-    category: "Web & Mobile",
+    category: "Web",
     description:
       "Logiciel de gestion de stock et de facturation intégrant la facture normalisée, développé pour la société STEFA SARL.",
     tech: ["PHP (Laravel)", "MySQL"],
     image: "https://placehold.co/600x400/0B0F14/E7E9EC?text=G-stock+Pro",
-    github: "https://github.com/kbbifu",
-    demo: null,
+    github: "https://github.com/radio-lsr/gstock-pro/",
+    demo: "http://13.36.71.146/g-stock-pro/",
   },
   {
     id: 8,
@@ -89,13 +89,13 @@ export const projectsData = [
   },
   {
     id: 9,
-    title: "Kongomart",
+    title: "Kalasi ERP",
     category: "Web & Mobile",
     description:
-      "Marketplace de produits agricoles bio mettant en relation producteurs locaux et consommateurs.",
-    tech: ["React Native"],
-    image: "https://placehold.co/600x400/0B0F14/E7E9EC?text=Kongomart",
-    github: "https://github.com/kbbifu",
+      "Progiciel intégré boosté par IA pour gestion intégrale et intelligente des établissements scolaires .",
+    tech: ["Frontend :Typescript/Vuejs", "Backend : JEE/Springboot & Python/Django", "Postgresql" "Architecture en Microservices"],
+    image: "https://placehold.co/600x400/0B0F14/E7E9EC?text=Kalasi ERP",
+    github: "https://github.com/radio-lsr/kalasi_erp",
     demo: null,
   },
   {

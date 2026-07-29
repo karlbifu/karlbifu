@@ -159,7 +159,7 @@ const About = () => {
             </Button>
 
             <Button
-              href="/CV_BATUNGUNI_BIFU_KARL_v2026.pdf"
+              href="/resume.pdf"
               variant="outline"
               download="CV_Karl_Batunguni_Bifu.pdf"
               className="gap-2 group"

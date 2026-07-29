@@ -96,7 +96,7 @@ export const projectsData = [
     tech: ["Frontend :Typescript/Vuejs", "Backend : JEE/Springboot & Python/Django", "Postgresql", "Architecture en Microservices"],
     image: "https://placehold.co/600x400/0B0F14/E7E9EC?text=Kalasi ERP",
     github: "https://github.com/radio-lsr/kalasi_erp",
-    demo: null,
+    demo: "https://kalasi-erp.duckdns.org/",
   },
   {
     id: 10,

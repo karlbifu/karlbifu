@@ -49,7 +49,7 @@ const About = () => {
         >
           <div className="relative z-10 rounded-2xl overflow-hidden border border-slate-800 bg-slate-900/50 backdrop-blur-sm aspect-[4/5] shadow-2xl">
             <img
-              src="/photo1.jpg"
+              src={`${import.meta.env.BASE_URL}photo1.jpg`}
               alt="Karl Batunguni Bifu"
               className="w-full h-full object-cover opacity-90 hover:opacity-100 transition-opacity duration-500"
             />

@@ -51,7 +51,7 @@ export const projectsData = [
       "Plateforme web d'enregistrement et de vente de propriétés (parcelles) sur la blockchain, garantissant traçabilité et sécurité des transactions immobilières.",
     tech: ["Flutter", "Solidity", "IPFS", "Web3JS", "Ethereum"],
     image: "https://placehold.co/600x400/0B0F14/C98A4B?text=PropSecure",
-    github: "https://github.com/kbbifu",
+    github: "https://github.com/Kbbifu/blockchain-registre-parcellaire/",
     demo: null,
   },
   {

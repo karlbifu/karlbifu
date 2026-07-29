@@ -92,7 +92,7 @@ const About = () => {
                 Je suis <strong className="text-slate-200">Ingénieur Informaticien</strong>, diplômé en Mathématique-Informatique de l'Université Pédagogique Nationale (UPN) à Kinshasa, avec plus de 7 ans d'expérience dans la conception et l'administration de systèmes informatiques, le développement logiciel et la data science. Mon travail ne se limite pas à écrire du code : je construis des systèmes conçus pour tenir la charge, en production, sur la durée.
               </p>
               <p>
-                Je conjugue une double compétence rare : l'<strong className="text-slate-200">administration de systèmes et réseaux</strong> (Windows Server, Active Directory, Cisco, Juniper, Nokia) et la <strong className="text-slate-200">data science &amp; l'intelligence artificielle</strong> (Python, TensorFlow, PyTorch, agents IA). La <strong className="text-slate-200">cybersécurité</strong> et l'architecture backend en microservices complètent ce socle — toujours avec la fiabilité comme objectif.
+                Je conjugue une double compétence rare : l'<strong className="text-slate-200">administration de systèmes et réseaux</strong> (Windows Server, Active Directory, GPO, Virtualisation, conception des architectures réseaux et configuration des équipements Cisco, Juniper, Alcatel Lucent Enterprise) et la <strong className="text-slate-200">data science &amp; l'intelligence artificielle</strong> (Python, TensorFlow, PyTorch, agents IA). La <strong className="text-slate-200">cybersécurité</strong> et l'architecture backend en microservices complètent ce socle — toujours avec la fiabilité comme objectif.
               </p>
             </div>
           </motion.div>
@@ -102,7 +102,7 @@ const About = () => {
             <div className="p-5 bg-slate-900/60 border border-slate-800 rounded-xl hover:border-[#C98A4B]/40 transition-colors group">
               <FaGraduationCap className="text-3xl text-[#C98A4B] mb-3 group-hover:scale-110 transition-transform" />
               <h3 className="text-slate-200 font-bold mb-1">Licence Mathématique-Informatique</h3>
-              <p className="text-sm text-slate-500">Conception des Systèmes d'Information — UPN Kinshasa</p>
+              <p className="text-sm text-slate-500">Conception des Systèmes d'Information — UPN / Kinshasa</p>
               <p className="text-xs text-slate-600 mt-2 font-mono">2013 - 2016</p>
             </div>
 
@@ -117,13 +117,13 @@ const About = () => {
               <FaBrain className="text-3xl text-purple-400 mb-3 group-hover:scale-110 transition-transform" />
               <h3 className="text-slate-200 font-bold mb-1">Data Science &amp; IA</h3>
               <p className="text-sm text-slate-500">Machine Learning, Deep Learning, agents IA</p>
-              <p className="text-xs text-slate-600 mt-2 font-mono">Python, TensorFlow, PyTorch</p>
+              <p className="text-xs text-slate-600 mt-2 font-mono">Python, TensorFlow, PyTorch, MCP</p>
             </div>
 
             <div className="p-5 bg-slate-900/60 border border-slate-800 rounded-xl hover:border-orange-500/30 transition-colors group">
               <FaShieldAlt className="text-3xl text-orange-400 mb-3 group-hover:scale-110 transition-transform" />
               <h3 className="text-slate-200 font-bold mb-1">Cybersécurité &amp; Backend</h3>
-              <p className="text-sm text-slate-500">API REST, microservices, Fortinet</p>
+              <p className="text-sm text-slate-500">API REST, GrapQL, gRPC, Architecture microservices, JEE/Spring, Django, PHP/Laravel, Fortinet : WAF, SASE, SANDBOXING, ForiOS, FortiClient, FortiGate </p>
               <p className="text-xs text-slate-600 mt-2 font-mono">Sécurité &amp; architecture</p>
             </div>
           </motion.div>
@@ -159,7 +159,7 @@ const About = () => {
             </Button>
 
             <Button
-              href="/resume.pdf"
+              href="/CV_BATUNGUNI_BIFU_KARL_v2026.pdf"
               variant="outline"
               download="CV_Karl_Batunguni_Bifu.pdf"
               className="gap-2 group"

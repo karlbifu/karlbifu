@@ -159,7 +159,7 @@ const About = () => {
             </Button>
 
             <Button
-              href="/resume.pdf"
+              href={`${import.meta.env.BASE_URL}resume.pdf`}  // <-- Correction ici
               variant="outline"
               download="CV_Karl_Batunguni_Bifu.pdf"
               className="gap-2 group"

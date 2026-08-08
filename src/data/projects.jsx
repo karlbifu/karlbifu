@@ -19,7 +19,7 @@ export const projectsData = [
     tech: ["Python", "Scikit-learn", "PostgreSQL", "API REST"],
     image: "https://placehold.co/600x400/0B0F14/3FA9A0?text=Mod%C3%A8le+de+Scoring",
     github: "https://github.com/kbbifu",
-    demo: null,
+    demo: "https://scoringcredite2e-mzwnqrbrjdptkdav9halrk.streamlit.app/",
   },
   {
     id: 3,

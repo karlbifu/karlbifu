@@ -81,6 +81,6 @@ src/
 
 - **Location**: Kinshasa, Democratic Republic of Congo
 
-- **GitHub**: [@HemJoshi111](https://github.com/kbbifu "Visit my GitHub profile")
+- **GitHub**: [@kbbifu](https://github.com/kbbifu "Visit my GitHub profile")
 
-- **LinkedIn**: [Hem Joshi](linkedin.com/in/karlbifu "Visit my GitHub profile")
+- **LinkedIn**: [Karl BIFU](linkedin.com/in/karlbifu "Visit my GitHub profile")

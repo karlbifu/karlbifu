@@ -28,7 +28,7 @@ export const projectsData = [
     description:
       "Outil d'automatisation de la modélisation Machine Learning, permettant d'entraîner et de comparer des modèles sans écrire de code, avec une interface interactive.",
     tech: ["Python", "Streamlit", "PyCaret"],
-    image: "https://automl-gvh4euzeveqlryqvjz4gje.streamlit.app/",
+    image: "https://automl-lt4yjqvsc7rtawppgyqm4r.streamlit.app/",
     github: "https://github.com/radio-lsr/AutoML",
     demo: null,
   },
